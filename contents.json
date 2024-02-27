@@ -1,0 +1,23 @@
+{
+
+    "cappuccini-hill":{
+        "name": "Cappuccini’s Hill: The Multifaceted Ecosystem of Daniele Cesca",
+        "description": "With Penelope Volinia",
+        "folder": "cappuccini",
+        "mainPics": ["cp-1.jpg"]
+    },
+
+    "bar_versini":{
+        "name": "Bar Versini for CIAOMONDO Festival by Licia Florio",
+        "description": "Morel Milano, 2023",
+        "folder": "versini",
+        "mainPics": ["cp-0.jpg"]
+    },
+
+    "cappuccini-hill":{
+        "name": "Cappuccini’s Hill: The Multifaceted Ecosystem of Daniele Cesca",
+        "description": "With Penelope Volinia",
+        "folder": "cappuccini",
+        "mainPics": ["prg1-2.jpg"]
+    }
+}

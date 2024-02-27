@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Benedetta Stefani</title>
+        <meta name="description" content="Benedetta Stefani Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link
+            rel="stylesheet"
+            href="swiper/swiper-bundle.min.css"
+            />
+
+        <script src="swiper/swiper-bundle.min.js"></script>
+
+    </head>
+    <body>
+
+    <a onclick="toggleInfo()" id="burger">Benedetta Stefani</a>
+        
+    <div id="info">
+        <p>for inquires</p>
+        <p><a href="mailto:benedetta.stefanife@gmail.com">benedetta.stefanife@gmail.com</a></p>
+        <p><a href="https://www.instagram.com/stefani.maledetta/" target="_blank">@stefani.maledetta</a></p>
+    </div>
+    
+    <div id="description"></div>
+<div id="mainGallery" class="swiper">
+                <div class="swiper-wrapper"><div class="swiper-slide"><img data-slug="bar_versini" data-name="Bar Versini for CIAOMONDO Festival by Licia Florio" data-description="Morel Milano, 2023" onmouseover="changeDescription(`bar_versini`,`Bar Versini for CIAOMONDO Festival by Licia Florio`,`Morel Milano, 2023`)" onclick="openSubGallery(`bar_versini`)" src="./data/versini/cp-0.jpg"></div>
+<div class="swiper-slide"><img data-slug="cappuccini-hill" data-name="Cappuccini’s Hill: The Multifaceted Ecosystem of Daniele Cesca" data-description="With Penelope Volinia" onmouseover="changeDescription(`cappuccini-hill`,`Cappuccini’s Hill: The Multifaceted Ecosystem of Daniele Cesca`,`With Penelope Volinia`)" onclick="openSubGallery(`cappuccini-hill`)" src="./data/cappuccini/cp-1.jpg"></div>
+<div class="swiper-slide"><img data-slug="cappuccini-hill" data-name="Cappuccini’s Hill: The Multifaceted Ecosystem of Daniele Cesca" data-description="With Penelope Volinia" onmouseover="changeDescription(`cappuccini-hill`,`Cappuccini’s Hill: The Multifaceted Ecosystem of Daniele Cesca`,`With Penelope Volinia`)" onclick="openSubGallery(`cappuccini-hill`)" src="./data/cappuccini/prg1-2.jpg"></div>
+</div>
+                
+                <div class="swiper-button-prev" onclick=getDataProject()></div>
+                <div class="swiper-button-next" onclick=getDataProject()></div>
+
+            </div><div class="subGallery" id="bar_versini">
+  <img loading="lazy" src="./data/versini/compressed/prg0-5.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/versini/compressed/prg0-4.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/versini/compressed/prg0-6.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/versini/compressed/prg0-7.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/versini/compressed/prg0-3.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/versini/compressed/prg0-2.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/versini/compressed/prg0-0.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/versini/compressed/prg0-1.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/versini/compressed/cp-0.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/versini/compressed/compressed_compressed.jpg">
+  <img loading="lazy" src="./data/versini/compressed/prg0-8.jpg_compressed.jpg">
+</div>
+ <div class="subGallery" id="cappuccini-hill">
+  <img loading="lazy" src="./data/cappuccini/compressed/prg1-5.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/cappuccini/compressed/cp-1.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/cappuccini/compressed/prg1-4.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/cappuccini/compressed/prg1-0.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/cappuccini/compressed/prg1-1.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/cappuccini/compressed/prg1-3.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/cappuccini/compressed/prg1-2.jpg_compressed.jpg">
+  <img loading="lazy" src="./data/cappuccini/compressed/compressed_compressed.jpg">
+</div>
+ 
+
+
+     <script src="script.js" async defer></script>
+
+    </body>
+</html>
+
